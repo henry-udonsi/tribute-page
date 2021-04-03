@@ -1,0 +1,60 @@
+body {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    border: 10px;
+    padding: 10px;
+    background-image: url("https://henry-udonsi.github.io/tribute-page/background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: cursive;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+figure {
+    text-align: center;
+}
+#caption {
+    font-size:80%;
+    text-align: center;
+}
+
+hr.hr-1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#image-div {
+    padding: 20px
+}
+
+#image {
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#tribute-info {
+    text-align: center;
+}
+footer {
+    border: -10px -10px -100px -10px;
+    margin: -20px -20px -100px -20px;
+    padding: -10px -10px -100px -50px;
+    background-color: silver;
+}
+#center-grid {
+    text-align: center;
+    margin-top: 50px;
+}
